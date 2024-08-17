@@ -1,0 +1,1559 @@
+[
+  {
+    "Question": "Which is not true for socket.",
+    "Option1": "Socket connection means the two machines have information about each other\u2019s network location and port.",
+    "Option2": "Socket supports only TCP protocol due to its reliability feature.",
+    "Option3": "To connect to other machine we need a socket connection.",
+    "Option4": "Socket programming is used for communication between the applications running on different JRE.",
+    "Answer": "Option2",
+    "QuestionID": "1"
+  },
+  {
+    "Question": "If one want to implement Socket at client side then which is the correct way to implement it?",
+    "Option1": "ServerSocket ss=new ServerSocket(port);",
+    "Option2": "Socket s=ss.accept();",
+    "Option3": "Socket s=new Socket(\"localhost\",port);",
+    "Option4": "Socket s=ss.accept(port)",
+    "Answer": "Option3",
+    "QuestionID": "2"
+  },
+  {
+    "Question": "DatagramSocket() throws\n",
+    "Option1": "IOException",
+    "Option2": "UnknownHostException",
+    "Option3": "ClassNotFoundException",
+    "Option4": "SocketException",
+    "Answer": "Option4",
+    "QuestionID": "3"
+  },
+  {
+    "Question": "What is a socket in computer networking?",
+    "Option1": "A software structure that acts as an endpoint for sending and receiving data.",
+    "Option2": "A device used to connect two computers physically",
+    "Option3": "A type of cable used to establish internet connection",
+    "Option4": "A protocol used for secure communication",
+    "Answer": "Option1",
+    "QuestionID": "4"
+  },
+  {
+    "Question": "Which of the following protocols is connection-oriented?",
+    "Option1": "TCP",
+    "Option2": "UDP",
+    "Option3": "FTP",
+    "Option4": "HTTP",
+    "Answer": "Option1",
+    "QuestionID": "5"
+  },
+  {
+    "Question": "What is the role of a client socket in TCP/IP communication?",
+    "Option1": "Sends data to the server.",
+    "Option2": "Listens for incoming connections.",
+    "Option3": "Handles requests from clients.",
+    "Option4": "Manages server resources.",
+    "Answer": "Option1",
+    "QuestionID": "6"
+  },
+  {
+    "Question": "Which Java package is used for network communication?",
+    "Option1": "java.net",
+    "Option2": "java.io",
+    "Option3": "java.util",
+    "Option4": "java.lang",
+    "Answer": "Option1",
+    "QuestionID": "7"
+  },
+  {
+    "Question": "Which class is used to represent a TCP/IP server socket in Java?",
+    "Option1": "ServerSocket",
+    "Option2": "Socket",
+    "Option3": "DatagramSocket",
+    "Option4": "InetAddress",
+    "Answer": "Option1",
+    "QuestionID": "8"
+  },
+  {
+    "Question": "Which method of URL class returns the object of URLConnection class?",
+    "Option1": "getLocalHost()",
+    "Option2": "openConnection()",
+    "Option3": "getByName(String host)",
+    "Option4": "getHostAddress()",
+    "Answer": "Option2",
+    "QuestionID": "9"
+  },
+  {
+    "Question": "What is the purpose of InetAddress class in Java?",
+    "Option1": "To represent internet addresses.",
+    "Option2": "To manipulate URLs",
+    "Option3": "To establish secure connections",
+    "Option4": "To handle file input/output operations",
+    "Answer": "Option1",
+    "QuestionID": "10"
+  },
+  {
+    "Question": "Which Java class is used to establish a connection to a URL?",
+    "Option1": "URLConnection",
+    "Option2": "ServerSocket",
+    "Option3": "InetAddress",
+    "Option4": "Socket",
+    "Answer": "Option1",
+    "QuestionID": "11"
+  },
+  {
+    "Question": "Which classes are used for connection-less socket programming?",
+    "Option1": "DatagramSocket",
+    "Option2": "DatagramPacket",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option3",
+    "QuestionID": "12"
+  },
+  {
+    "Question": "What is the primary function of ServerSocket in Java?",
+    "Option1": "It represents a client-side endpoint.",
+    "Option2": "It handles incoming connections on the server side.",
+    "Option3": "It represents an IP address.",
+    "Option4": "It reads data from a URL.",
+    "Answer": "Option2",
+    "QuestionID": "13"
+  },
+  {
+    "Question": "Which protocol is used by DatagramSocket for communication?",
+    "Option1": "TCP",
+    "Option2": "UDP",
+    "Option3": "HTTP",
+    "Option4": "FTP",
+    "Answer": "Option2",
+    "QuestionID": "14"
+  },
+  {
+    "Question": "URL contains\u2026?",
+    "Option1": "Protocol",
+    "Option2": "IP Address",
+    "Option3": "Port Number",
+    "Option4": "All of these",
+    "Answer": "Option4",
+    "QuestionID": "15"
+  },
+  {
+    "Question": "What is the primary difference between TCP and UDP?",
+    "Option1": "TCP is connectionless, while UDP is connection-oriented.",
+    "Option2": "TCP is faster than UDP.",
+    "Option3": "TCP guarantees reliable delivery, while UDP does not.",
+    "Option4": "TCP is used for video streaming, while UDP is used for file transfer.",
+    "Answer": "Option3",
+    "QuestionID": "16"
+  },
+  {
+    "Question": "What is the purpose of the accept() method in ServerSocket class?",
+    "Option1": "Connects to a server",
+    "Option2": "Sends data to the client",
+    "Option3": "Listens for incoming connections",
+    "Option4": "Closes the socket connection",
+    "Answer": "Option3",
+    "QuestionID": "17"
+  },
+  {
+    "Question": "A Socket Consists Of?",
+    "Option1": "Port+IP address",
+    "Option2": "Only IP address",
+    "Option3": "Only Port address",
+    "Option4": "None of these",
+    "Answer": "Option1",
+    "QuestionID": "18"
+  },
+  {
+    "Question": "Which method is establish a connection between server and client?",
+    "Option1": "accept()",
+    "Option2": "open()",
+    "Option3": "getLocalHost()",
+    "Option4": "openConnection()",
+    "Answer": "Option1",
+    "QuestionID": "19"
+  },
+  {
+    "Question": "How do you implement reliable transmission in UDP protocol?",
+    "Option1": "by sequencing packages",
+    "Option2": "by using Middleware",
+    "Option3": "A & B both",
+    "Option4": "None of the above",
+    "Answer": "Option1",
+    "QuestionID": "20"
+  },
+  {
+    "Question": "Which class implements a connectionless packet delivery service.",
+    "Option1": "ServerSocket",
+    "Option2": "DatagramSocket",
+    "Option3": "InetAddress",
+    "Option4": "DatagramPacket",
+    "Answer": "Option4",
+    "QuestionID": "21"
+  },
+  {
+    "Question": "Which class in Java represents a UDP socket?",
+    "Option1": "Socket",
+    "Option2": "ServerSocket",
+    "Option3": "DatagramSocket",
+    "Option4": "InetAddress",
+    "Answer": "Option3",
+    "QuestionID": "22"
+  },
+  {
+    "Question": "Which driver is efficient and always preferable for using JDBC applications?",
+    "Option1": "Type \u2013 1",
+    "Option2": "Type \u2013 2",
+    "Option3": "Type \u2013 3",
+    "Option4": "Type \u2013 4",
+    "Answer": "Option4",
+    "QuestionID": "23"
+  },
+  {
+    "Question": "Which of the following statement is true with respect to Java?",
+    "Option1": "SQL is a database management system based on relational algebra",
+    "Option2": "SQL is an object oriented programming language like C++ and Java",
+    "Option3": "SQL is case-sensitive",
+    "Option4": "SQL is used in Java programs with JDBC API to process data in DBMS",
+    "Answer": "Option4",
+    "QuestionID": "24"
+  },
+  {
+    "Question": "Which of the following is used to call stored procedure?",
+    "Option1": "Statement",
+    "Option2": "PreparedStatement",
+    "Option3": "CallableStatment",
+    "Option4": "StoredProcedure",
+    "Answer": "Option3",
+    "QuestionID": "25"
+  },
+  {
+    "Question": "Once a JDBC Driver has been registered, what method is used to take the database connection?",
+    "Option1": "connect(String url, String userID, String password)",
+    "Option2": "getConnection(String url, String userID, String password)",
+    "Option3": "setConnection(String url, String userID, String password)",
+    "Option4": "All of these can be used",
+    "Answer": "Option2",
+    "QuestionID": "26"
+  },
+  {
+    "Question": "What does setAutoCommit(false) do?",
+    "Option1": "Commits transaction after each SQL command",
+    "Option2": "Explicitly commits transaction",
+    "Option3": "Does not commit transaction automatically after each SQL command",
+    "Option4": "Never commits transaction",
+    "Answer": "Option3",
+    "QuestionID": "27"
+  },
+  {
+    "Question": "Which package is required to be imported for the JDBC programming?",
+    "Option1": "java mysql",
+    "Option2": "java.sql",
+    "Option3": "java.lang",
+    "Option4": "java.io",
+    "Answer": "Option2",
+    "QuestionID": "28"
+  },
+  {
+    "Question": "Which of the following is not correct about Connection interface of JDBC?",
+    "Option1": "Connection interface consists of methods for contacting a database.",
+    "Option2": "It represents communication context.",
+    "Option3": "Its instance can be created using the new operator.",
+    "Option4": "None of these",
+    "Answer": "Option3",
+    "QuestionID": "29"
+  },
+  {
+    "Question": "Which of the following type of JDBC driver, is also called Type 1 JDBC driver?",
+    "Option1": "JDBC-ODBC Bridge",
+    "Option2": "Native-API",
+    "Option3": "JDBC-Net",
+    "Option4": "Native-protocol",
+    "Answer": "Option1",
+    "QuestionID": "30"
+  },
+  {
+    "Question": "Which of the following is correct about JDBC?",
+    "Option1": "The JDBC API provides the abstraction and the JDBC drivers provide the implementation.",
+    "Option2": "New drivers can be plugged-in to the JDBC API without changing the client code.",
+    "Option3": "The DriverManager class is the component of JDBC API and also a member of the jav sql package.",
+    "Option4": "All of the mentioned options",
+    "Answer": "Option4",
+    "QuestionID": "31"
+  },
+  {
+    "Question": "Which of the following is correct about PreparedStatement?",
+    "Option1": "Prepared statements offer better performance, as they are pre-compile",
+    "Option2": "Prepared statements reuse the same execution plan for different arguments rather than creating a new execution plan every time.",
+    "Option3": "Prepared statements use bind arguments, which are sent to the database engine.",
+    "Option4": "All of the mentioned",
+    "Answer": "Option4",
+    "QuestionID": "32"
+  },
+  {
+    "Question": "Which method is used to establish the connection with the specified url in a DriverManager class?",
+    "Option1": "public static void registerDriver(Driver driver)",
+    "Option2": "public static void deregisterDriver(Driver driver)",
+    "Option3": "public static Connection getConnection(String url)",
+    "Option4": "public static Connection getTheConnection(String url)",
+    "Answer": "Option3",
+    "QuestionID": "33"
+  },
+  {
+    "Question": "JDBC stands for?",
+    "Option1": "Java Database Concept",
+    "Option2": "Java Database Communication",
+    "Option3": "Java Database Connection",
+    "Option4": "Java Database Connectivity",
+    "Answer": "Option4",
+    "QuestionID": "34"
+  },
+  {
+    "Question": "Which method Drops all changes made since the previous commit/rollback?",
+    "Option1": "public void rollback()",
+    "Option2": "public void commit()",
+    "Option3": "public void close()",
+    "Option4": "public Statement createStatement()",
+    "Answer": "Option1",
+    "QuestionID": "35"
+  },
+  {
+    "Question": "Which of the following type indicates a ResultSet type that cannot be updated programmatically in concurrency?",
+    "Option1": "CONCUR_UPDATABLE",
+    "Option2": "CONCUR_READ_ONLY",
+    "Option3": "CONCUR_NOT_UPDATABLE",
+    "Option4": "None of these",
+    "Answer": "Option2",
+    "QuestionID": "36"
+  },
+  {
+    "Question": "Which of the following is not a valid step out of the 5 steps of connecting to a Database using JDBC based code:",
+    "Option1": "Development of the driver class",
+    "Option2": "Creating the statement object",
+    "Option3": "Registering the driver class",
+    "Option4": "Getting the connection object",
+    "Answer": "Option1",
+    "QuestionID": "37"
+  },
+  {
+    "Question": "Which of the following SQL commands is/are used for entering a new record into a table?",
+    "Option1": "SELECT",
+    "Option2": "CREATE",
+    "Option3": "UPDATE",
+    "Option4": "INSERT",
+    "Answer": "Option4",
+    "QuestionID": "38"
+  },
+  {
+    "Question": "Which of the following driver type is preferred when a Java application is accessing multiple types of databases at the same time?",
+    "Option1": "Type-1",
+    "Option2": "Type-2",
+    "Option3": "Type-3",
+    "Option4": "Type-4",
+    "Answer": "Option3",
+    "QuestionID": "39"
+  },
+  {
+    "Question": "Which of the following type of driver is not considered as a deployment-level driver, and is typically used for development and testing purposes only?",
+    "Option1": "Type-1",
+    "Option2": "Type-2",
+    "Option3": "Type-3",
+    "Option4": "Type-4",
+    "Answer": "Option4",
+    "QuestionID": "40"
+  },
+  {
+    "Question": "Which of the following is not a valid JDBC driver type?",
+    "Option1": "Type 1: JDBC-ODBC bridge driver",
+    "Option2": "Type 2: Very-Thick Protocol driver",
+    "Option3": "Type 3: Network Protocol driver",
+    "Option4": "Type 4: Thin driver",
+    "Answer": "Option2",
+    "QuestionID": "41"
+  },
+  {
+    "Question": "Which of the following is not a valid type of JDBC Statement object?",
+    "Option1": "Statement",
+    "Option2": "ResultStatement",
+    "Option3": "PreparedStatement",
+    "Option4": "CallableStatement",
+    "Answer": "Option2",
+    "QuestionID": "42"
+  },
+  {
+    "Question": "What is the correct sequence to create a database connection? i. Import JDBC packages.\n\nii. Open a connection to the database.\n\niii. Load and register the JDBC driver.\n\niv. Execute the statement object and return a query resultset. v.Create a statement object to perform a query. vi.Close the resultset and statement objects.\n\nvii. Process the resultset.\n\nviii. Close the connection.",
+    "Option1": "i, ii, iii, v, iv, vii, viii, vi",
+    "Option2": "i, iii, ii, v, iv, vii, vi, viii",
+    "Option3": "ii, i, iii, iv, viii, vii, v, vi",
+    "Option4": "i, iii, ii, iv, v, vi, vii, viii",
+    "Answer": "Option2",
+    "QuestionID": "43"
+  },
+  {
+    "Question": "Which of the following interface provides the commit() and rollback() methods?",
+    "Option1": "Statement Interface",
+    "Option2": "ResultSet Interface",
+    "Option3": "Connection Interface",
+    "Option4": "RowSet Interface",
+    "Answer": "Option3",
+    "QuestionID": "44"
+  },
+  {
+    "Question": "Parameterized queries can be executed by?",
+    "Option1": "ParameterizedStatement",
+    "Option2": "PreparedStatement",
+    "Option3": "CallableStatement and Parameterized Statement",
+    "Option4": "All kinds of Statements",
+    "Answer": "Option2",
+    "QuestionID": "45"
+  },
+  {
+    "Question": "which character is used to represent an input parameter in callable statement",
+    "Option1": "%",
+    "Option2": "#",
+    "Option3": "*",
+    "Option4": "?",
+    "Answer": "Option4",
+    "QuestionID": "46"
+  },
+  {
+    "Question": "Which of the following is not a valid statement in JDBC?",
+    "Option1": "Statement",
+    "Option2": "PreparedStatement",
+    "Option3": "QueryStatement",
+    "Option4": "CallableStatement",
+    "Answer": "Option3",
+    "QuestionID": "47"
+  },
+  {
+    "Question": "Which of the following is not a type of ResultSet object?",
+    "Option1": "TYPE_FORWARD_ONLY",
+    "Option2": "CONCUR_WRITE_ONLY",
+    "Option3": "TYPE_SCROLL_INSENSITIVE",
+    "Option4": "TYPE_SCROLL_SENSITIVE",
+    "Answer": "Option2",
+    "QuestionID": "48"
+  },
+  {
+    "Question": "How many stages are used by Java programmers while using JDBC in their programs?",
+    "Option1": 3,
+    "Option2": 2,
+    "Option3": 5,
+    "Option4": 6,
+    "Answer": "Option3",
+    "QuestionID": "49"
+  },
+  {
+    "Question": "How many statement objects can be created using a Connection?",
+    "Option1": 1,
+    "Option2": 2,
+    "Option3": 3,
+    "Option4": "multiple",
+    "Answer": "Option4",
+    "QuestionID": "50"
+  },
+  {
+    "Question": "Which of the following method is used to perform DML statements in JDBC?",
+    "Option1": "executeResult()",
+    "Option2": "executeQuery()",
+    "Option3": "executeUpdate()",
+    "Option4": "execute()",
+    "Answer": "Option3",
+    "QuestionID": "51"
+  },
+  {
+    "Question": "What must be the first characters of a database URL?",
+    "Option1": "db,",
+    "Option2": "db:",
+    "Option3": "jdbc,",
+    "Option4": "jdbc:",
+    "Answer": "Option4",
+    "QuestionID": "52"
+  },
+  {
+    "Question": "____ is responsible to create the object of servlet?",
+    "Option1": "web container",
+    "Option2": "servlet container",
+    "Option3": "both A & B",
+    "Option4": "only B",
+    "Answer": "Option3",
+    "QuestionID": "53"
+  },
+  {
+    "Question": "The doGet() method in the example extracts values of parameters type and number by using __________ .",
+    "Option1": "response.getAttribute()",
+    "Option2": "response.getParameter()",
+    "Option3": "request.getAttribute()",
+    "Option4": "request.getParameter()",
+    "Answer": "Option4",
+    "QuestionID": "54"
+  },
+  {
+    "Question": "Dynamic interception of requests and responses to transform the information is done by",
+    "Option1": "Servlet Filter",
+    "Option2": "Servlet Config",
+    "Option3": "Servlet Container",
+    "Option4": "Servlet Context",
+    "Answer": "Option1",
+    "QuestionID": "55"
+  },
+  {
+    "Question": "In a servlet, which method is called when a client sends an HTTP GET request?",
+    "Option1": "doPost",
+    "Option2": "doGet",
+    "Option3": "doPut",
+    "Option4": "doOption",
+    "Answer": "Option2",
+    "QuestionID": "56"
+  },
+  {
+    "Question": "What type of servlets use these methods doGet(), doPost(),doHead, doDelete(), doTrace()?",
+    "Option1": "Genereic Servlets",
+    "Option2": "HttpServlets",
+    "Option3": "All of the above",
+    "Option4": "None of the above",
+    "Answer": "Option2",
+    "QuestionID": "57"
+  },
+  {
+    "Question": "Which cookie it is valid for single session only and it is removed each time when the user closes the browser?",
+    "Option1": "Persistent cookie",
+    "Option2": "Non-persistent cookie",
+    "Option3": "All the above",
+    "Option4": "None of the above",
+    "Answer": "Option2",
+    "QuestionID": "58"
+  },
+  {
+    "Question": "Sessions is a part of the SessionTracking and it is for maintaining the client state at server side",
+    "Option1": 1,
+    "Option2": false,
+    "Option3": "Do not know",
+    "Option4": "NOTA",
+    "Answer": "Option1",
+    "QuestionID": "59"
+  },
+  {
+    "Question": "Web server is used for loading the init() method of servlet.",
+    "Option1": 1,
+    "Option2": false,
+    "Option3": "Do not know",
+    "Option4": "NOTA",
+    "Answer": "Option1",
+    "QuestionID": "60"
+  },
+  {
+    "Question": "When destroy() method of a filter is called?",
+    "Option1": "The destroy() method is called only once at the end of the life cycle of a filter",
+    "Option2": "The destroy() method is called after the filter has executed doFilter method",
+    "Option3": "The destroy() method is called only once at the begining of the life cycle of a filter",
+    "Option4": "The destroyer() method is called after the filter has executed",
+    "Answer": "Option1",
+    "QuestionID": "61"
+  },
+  {
+    "Question": "Which pacakges represents interfaces and classses for Servlet API?",
+    "Option1": "javax.servlet",
+    "Option2": "javax.servlet.http",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option3",
+    "QuestionID": "62"
+  },
+  {
+    "Question": "Which method is used to send the same request and response objects to another servlet in RequestDispacher ?",
+    "Option1": "forward()",
+    "Option2": "sendRedirect()",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option1",
+    "QuestionID": "63"
+  },
+  {
+    "Question": "Which class can handle any type of request so that it is protocol-independent?",
+    "Option1": "GenericServlet",
+    "Option2": "HttpServlets",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option1",
+    "QuestionID": "64"
+  },
+  {
+    "Question": "Which object is created by the web container at time of deploying the project?",
+    "Option1": "ServletConfig",
+    "Option2": "ServletContext",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option2",
+    "QuestionID": "65"
+  },
+  {
+    "Question": "Which method in session tracking is used in a bit of information that is sent by a web server to a browser and which can later be read back from that browse",
+    "Option1": "HttpSession",
+    "Option2": "URL rewriting",
+    "Option3": "Cookies",
+    "Option4": "Hidden form fields",
+    "Answer": "Option3",
+    "QuestionID": "66"
+  },
+  {
+    "Question": "How many techniques are used in Session Tracking?",
+    "Option1": 1,
+    "Option2": 2,
+    "Option3": 3,
+    "Option4": 4,
+    "Answer": "Option4",
+    "QuestionID": "67"
+  },
+  {
+    "Question": "What happens if you add a main method to servlet?",
+    "Option1": "It will give an error.",
+    "Option2": "Program will start execution with main method without any error.",
+    "Option3": "No error but this method will not get executed automatically.",
+    "Option4": "main method will be executed automatically after service method().",
+    "Answer": "Option3",
+    "QuestionID": "68"
+  },
+  {
+    "Question": "Which of the following code is used to get an attribute in a HTTP Session object in servlets?",
+    "Option1": "session.getAttribute(String name)",
+    "Option2": "session.alterAttribute(String name)",
+    "Option3": "session.updateAttribute(String name)",
+    "Option4": "session.setAttribute(String name)",
+    "Answer": "Option1",
+    "QuestionID": "69"
+  },
+  {
+    "Question": "The values of <servlet-name> and <servlet-class> in web.xml file",
+    "Option1": "must be same",
+    "Option2": "must not be same",
+    "Option3": "may be same",
+    "Option4": "None of the above",
+    "Answer": "Option3",
+    "QuestionID": "70"
+  },
+  {
+    "Question": "If you want to track active session or ow many user are there? So which listener you should use.",
+    "Option1": "HttpSessionBindingListener",
+    "Option2": "HttpSessionListener",
+    "Option3": "Both A & B",
+    "Option4": "None of the above",
+    "Answer": "Option2",
+    "QuestionID": "71"
+  },
+  {
+    "Question": "Which Listener you should use, when you want to know session attribute has added, removed or replaced?",
+    "Option1": "HttpAttributeListener",
+    "Option2": "HttpSessionActivationListener",
+    "Option3": "HttpSessionAttributeListener",
+    "Option4": "HttpActivationListener",
+    "Answer": "Option3",
+    "QuestionID": "72"
+  },
+  {
+    "Question": "In which File do we define a Servlet Mapping?",
+    "Option1": "web.xml",
+    "Option2": "Servlet.mappings",
+    "Option3": "servlet.xml",
+    "Option4": "simple.java",
+    "Answer": "Option1",
+    "QuestionID": "73"
+  },
+  {
+    "Question": "The Major difference between Servlet and CGI is",
+    "Option1": "Servlets are thread based and CGI is Process based",
+    "Option2": "Servlet excutes slower compared to CGI",
+    "Option3": "Servlet has no platform specific API, where CGI has",
+    "Option4": "All mentioned above",
+    "Answer": "Option1",
+    "QuestionID": "74"
+  },
+  {
+    "Question": "A deployment descriptor describes",
+    "Option1": "Web component response settings",
+    "Option2": "web component, servlet settings",
+    "Option3": "web component request object",
+    "Option4": "All mentioned above",
+    "Answer": "Option2",
+    "QuestionID": "75"
+  },
+  {
+    "Question": "Servlet mapping defines",
+    "Option1": "an association between a URL pattern and a servlet",
+    "Option2": "an association between a URL pattern and a request",
+    "Option3": "an association between a URL pattern and a response",
+    "Option4": "All mentioned above",
+    "Answer": "Option1",
+    "QuestionID": "76"
+  },
+  {
+    "Question": "How can we remove a session?",
+    "Option1": "session.falsify()",
+    "Option2": "session.discontinue()",
+    "Option3": "session.invalidate()",
+    "Option4": "session.disconnect()",
+    "Answer": "Option3",
+    "QuestionID": "77"
+  },
+  {
+    "Question": "Which method shows the client what server is receiving?",
+    "Option1": "goGet",
+    "Option2": "doOption",
+    "Option3": "doTrace",
+    "Option4": "doPost",
+    "Answer": "Option1",
+    "QuestionID": "78"
+  },
+  {
+    "Question": "What is Servlet?",
+    "Option1": "A type of database",
+    "Option2": "A server-side Java program",
+    "Option3": "A type of web browser",
+    "Option4": "A front-end JavaScript framework",
+    "Answer": "Option2",
+    "QuestionID": "79"
+  },
+  {
+    "Question": "Which method is called only once in life cycle of servlet? i) init() ii) service() iii) destroy()",
+    "Option1": "i) & ii)",
+    "Option2": " i) & iii)",
+    "Option3": " ii) & iii)",
+    "Option4": " All the three",
+    "Answer": "Option2",
+    "QuestionID": "80"
+  },
+  {
+    "Question": "__ is the parent class of java servlet.",
+    "Option1": "Servlet",
+    "Option2": "GenericServlet",
+    "Option3": "HttpServlet",
+    "Option4": "ServletConfig",
+    "Answer": "Option2",
+    "QuestionID": "81"
+  },
+  {
+    "Question": "Which of the following JSP implicit object(s) is/are not available within a JSP expression tag?",
+    "Option1": "response",
+    "Option2": "session",
+    "Option3": "httpsession",
+    "Option4": "request",
+    "Answer": "Option3",
+    "QuestionID": "82"
+  },
+  {
+    "Question": "Which of the following is/are applicable for jsp:useBean tag used in a JSP page?",
+    "Option1": "Locates a bean instance",
+    "Option2": "Stores object reference of the bean in a variable",
+    "Option3": "Creates an instance if fails to locate the bean instance",
+    "Option4": "All of the mentioned",
+    "Answer": "Option4",
+    "QuestionID": "83"
+  },
+  {
+    "Question": "Which of the following is not a directive?",
+    "Option1": "include",
+    "Option2": "taglib",
+    "Option3": "page",
+    "Option4": "export",
+    "Answer": "Option4",
+    "QuestionID": "84"
+  },
+  {
+    "Question": "Which of the following method calls in JSP provide information about an initialization parameter that is applicable to an entire web application?",
+    "Option1": "config.getInitParameters",
+    "Option2": "application.getInitParameter",
+    "Option3": "context.getInitParameter",
+    "Option4": "config.getInitParameter",
+    "Answer": "Option2",
+    "QuestionID": "85"
+  },
+  {
+    "Question": "What is the default scope of the bean declared in a JSP Page?",
+    "Option1": "application",
+    "Option2": "page",
+    "Option3": "request",
+    "Option4": "response",
+    "Answer": "Option2",
+    "QuestionID": "86"
+  },
+  {
+    "Question": "Predict the output of following code: fn:toLowerCase(\"I Love MU\")",
+    "Option1": "i love mu",
+    "Option2": "I LOVE MU",
+    "Option3": "I Love MU",
+    "Option4": "I Love mu",
+    "Answer": "Option1",
+    "QuestionID": "87"
+  },
+  {
+    "Question": "What is the use of c:remove tag?",
+    "Option1": "It removes a variable from scope",
+    "Option2": "It removes the data row from the database",
+    "Option3": "It removes a item from a list",
+    "Option4": "None of these",
+    "Answer": "Option1",
+    "QuestionID": "88"
+  },
+  {
+    "Question": "__________________ manages the execution of JSP page and servlet components for J2EE applications. web components and their container run on the J2EE server.",
+    "Option1": "EJB Container",
+    "Option2": "Web Container",
+    "Option3": "Applet Container",
+    "Option4": "Application Client Container",
+    "Answer": "Option2",
+    "QuestionID": "89"
+  },
+  {
+    "Question": "Cookies can be deleted by using which of the following method?",
+    "Option1": "DeleteCookie( )",
+    "Option2": "setMaxAge( 0 )",
+    "Option3": "InvalidateCookie( )",
+    "Option4": "SetCookie( 0 )",
+    "Answer": "Option2",
+    "QuestionID": "90"
+  },
+  {
+    "Question": "Which from the following method names is not a valid life cycle method of JSP?",
+    "Option1": "jspStop",
+    "Option2": "jspDestroy",
+    "Option3": "jspInit",
+    "Option4": "_jspService",
+    "Answer": "Option1",
+    "QuestionID": "91"
+  },
+  {
+    "Question": "If a HTML form is designed to carry ATM pin number which method should be selected to send data to Server?",
+    "Option1": "Get",
+    "Option2": "Put",
+    "Option3": "Trace",
+    "Option4": "Post",
+    "Answer": "Option4",
+    "QuestionID": "92"
+  },
+  {
+    "Question": "In which phase of JSP life cycle, a JSP page turns into the Servlet?",
+    "Option1": "JSP Translation",
+    "Option2": "JSP Compilation",
+    "Option3": "JSP Deployment",
+    "Option4": "None of these",
+    "Answer": "Option1",
+    "QuestionID": "93"
+  },
+  {
+    "Question": "The compilation process of a JSP Page does not involve which of the following step?",
+    "Option1": "Parsing the JSP.",
+    "Option2": "Turning the JSP into a servlet.",
+    "Option3": "Calling the _jspService() metion",
+    "Option4": "Compiling the servlet.",
+    "Answer": "Option3",
+    "QuestionID": "94"
+  },
+  {
+    "Question": "Which of the following is not a valid implicit object?",
+    "Option1": "out",
+    "Option2": "request",
+    "Option3": "exception",
+    "Option4": "jspContext",
+    "Answer": "Option4",
+    "QuestionID": "95"
+  },
+  {
+    "Question": "Which of the following is not a valid type of scripting element in JSP?",
+    "Option1": "scriptlet tag",
+    "Option2": "expression tag",
+    "Option3": "formulation tag",
+    "Option4": "declaration tag",
+    "Answer": "Option3",
+    "QuestionID": "96"
+  },
+  {
+    "Question": "Which symbol is used in the JSP Expression Tag that differentiates it from a normal JSP Scriptlet Tag?",
+    "Option1": "hash tag (#)",
+    "Option2": "dollar ($)",
+    "Option3": "percentage (%)",
+    "Option4": "equal to (=)",
+    "Answer": "Option4",
+    "QuestionID": "97"
+  },
+  {
+    "Question": "Which symbol is used in the JSP Directive Tag that differentiates it from a normal JSP Scriptlet Tag?",
+    "Option1": "ampersand (@)",
+    "Option2": "hash tag (#)",
+    "Option3": "percentage (%)",
+    "Option4": "equal to (=)",
+    "Answer": "Option1",
+    "QuestionID": "98"
+  },
+  {
+    "Question": "Which symbol is used in the JSP Declaration Tag that differentiates it from a normal JSP Scriptlet Tag?",
+    "Option1": "ampersand (@)",
+    "Option2": "hash tag (#)",
+    "Option3": "Exclamation mark (!)",
+    "Option4": "equal to (=)",
+    "Answer": "Option3",
+    "QuestionID": "99"
+  },
+  {
+    "Question": "A JSP declaration tag is not used to declare which of the following?",
+    "Option1": "Fields",
+    "Option2": "Methods",
+    "Option3": "Classes",
+    "Option4": "None of these",
+    "Answer": "Option3",
+    "QuestionID": "100"
+  },
+  {
+    "Question": "A JSP file ends with which of the following extension?",
+    "Option1": ".java",
+    "Option2": ".jsp",
+    "Option3": ".jsf",
+    "Option4": ".class",
+    "Answer": "Option2",
+    "QuestionID": "101"
+  },
+  {
+    "Question": "The JSP page object is an implicit object of which of the following type?",
+    "Option1": "Class",
+    "Option2": "Page",
+    "Option3": "Object",
+    "Option4": "Non of these",
+    "Answer": "Option3",
+    "QuestionID": "102"
+  },
+  {
+    "Question": "The JSP page object is an implicit object of which of the following type?",
+    "Option1": "PageContext",
+    "Option2": "Page",
+    "Option3": "ServletContext",
+    "Option4": "AppContext",
+    "Answer": "Option1",
+    "QuestionID": "103"
+  },
+  {
+    "Question": "The JSP exception object is an implicit object of type ____________ class.",
+    "Option1": "Throwable",
+    "Option2": "MyException",
+    "Option3": "Error",
+    "Option4": "Non of these",
+    "Answer": "Option1",
+    "QuestionID": "104"
+  },
+  {
+    "Question": "The JSP application object is an implicit object of type _________________.",
+    "Option1": "ServletConfig",
+    "Option2": "ServletContext",
+    "Option3": "Servlet",
+    "Option4": "Application",
+    "Answer": "Option2",
+    "QuestionID": "105"
+  },
+  {
+    "Question": "The JSP config object is an implicit object of type ______________.",
+    "Option1": "ServletConfig",
+    "Option2": "ServletContext",
+    "Option3": "Servlet",
+    "Option4": "Config",
+    "Answer": "Option1",
+    "QuestionID": "106"
+  },
+  {
+    "Question": "The JSP out object is an implicit object of type ______________.",
+    "Option1": "Printer",
+    "Option2": "Writer",
+    "Option3": "JspOut",
+    "Option4": "JspWriter",
+    "Answer": "Option4",
+    "QuestionID": "107"
+  },
+  {
+    "Question": "Which of the following is not a valid type of JSP directive?",
+    "Option1": "page",
+    "Option2": "taglib",
+    "Option3": "forward",
+    "Option4": "include",
+    "Answer": "Option3",
+    "QuestionID": "108"
+  },
+  {
+    "Question": "Which of the following is not a valid type of JSP page directive's attribute?",
+    "Option1": "isErrorPage",
+    "Option2": "errorType",
+    "Option3": "contentType",
+    "Option4": "errorPage",
+    "Answer": "Option2",
+    "QuestionID": "109"
+  },
+  {
+    "Question": "Which of the following is not a valid action tag in JSP?",
+    "Option1": "jsp:include",
+    "Option2": "jsp:useBean",
+    "Option3": "jsp:printLine",
+    "Option4": "jsp:param",
+    "Answer": "Option3",
+    "QuestionID": "110"
+  },
+  {
+    "Question": "The jsp:include action tag is used to include the content of another resource which may be of type ____________________.",
+    "Option1": "JSP",
+    "Option2": "HTML",
+    "Option3": "Servlet",
+    "Option4": "All of these",
+    "Answer": "Option4",
+    "QuestionID": "111"
+  },
+  {
+    "Question": "The jsp:include tag can be used to include ________________________.",
+    "Option1": "Only static pages",
+    "Option2": "Only dynamic pages",
+    "Option3": "Both static as well as dynamic pages",
+    "Option4": "Neither static nor dynamic pages",
+    "Answer": "Option3",
+    "QuestionID": "112"
+  },
+  {
+    "Question": "The jsp:useBean action tag used which of the following attributes?",
+    "Option1": "id",
+    "Option2": "scope",
+    "Option3": "class",
+    "Option4": "All of these",
+    "Answer": "Option4",
+    "QuestionID": "113"
+  },
+  {
+    "Question": "What is Hibernate?",
+    "Option1": "A programming language",
+    "Option2": "A relational database management system",
+    "Option3": "An object-relational mapping (ORM) framework",
+    "Option4": "An application server",
+    "Answer": "Option3",
+    "QuestionID": "114"
+  },
+  {
+    "Question": "Which of the following is NOT a primary goal of Hibernate?",
+    "Option1": "Simplify database access",
+    "Option2": "Improve query performance",
+    "Option3": "Provide a standard API for ORM",
+    "Option4": "Enhance code maintainability",
+    "Answer": "Option2",
+    "QuestionID": "115"
+  },
+  {
+    "Question": "Hibernate is an open-source project that is primarily associated with which programming language?",
+    "Option1": "Java",
+    "Option2": "C++",
+    "Option3": "Python",
+    "Option4": "Ruby",
+    "Answer": "Option1",
+    "QuestionID": "116"
+  },
+  {
+    "Question": "Which configuration file in Hibernate is used to define the database connection properties?",
+    "Option1": "hibernate.cfg.xml",
+    "Option2": "persistence.xml",
+    "Option3": "hibernate-mapping.xml",
+    "Option4": "hibernate-orm.xml",
+    "Answer": "Option1",
+    "QuestionID": "117"
+  },
+  {
+    "Question": "Hibernate allows developers to work with which of the following database management systems?",
+    "Option1": "Only MySQL",
+    "Option2": "Only Oracle",
+    "Option3": "Multiple database systems",
+    "Option4": "None, Hibernate is not compatible with databases",
+    "Answer": "Option3",
+    "QuestionID": "118"
+  },
+  {
+    "Question": "What is the primary benefit of using Hibernate in Java applications?",
+    "Option1": "Reduced development time",
+    "Option2": "Increased hardware requirements",
+    "Option3": "Enhanced security",
+    "Option4": "Improved front-end design",
+    "Answer": "Option1",
+    "QuestionID": "119"
+  },
+  {
+    "Question": "In Hibernate, what is the role of the SessionFactory?",
+    "Option1": "Manages database connections",
+    "Option2": "Represents a single database table",
+    "Option3": "Stores entity objects",
+    "Option4": "Executes SQL queries",
+    "Answer": "Option1",
+    "QuestionID": "120"
+  },
+  {
+    "Question": "Which component of Hibernate is responsible for managing the lifecycle of the persistent objects?",
+    "Option1": "Session",
+    "Option2": "Transaction",
+    "Option3": "Connection Pool",
+    "Option4": "Query",
+    "Answer": "Option1",
+    "QuestionID": "121"
+  },
+  {
+    "Question": "What is the purpose of Hibernate's first-level cache?",
+    "Option1": "Store metadata about the database",
+    "Option2": "Store SQL query results",
+    "Option3": "Store recently retrieved entity objects",
+    "Option4": "Manage database connections",
+    "Answer": "Option3",
+    "QuestionID": "122"
+  },
+  {
+    "Question": "The second-level cache in Hibernate is used to:",
+    "Option1": "Cache query results for better performance",
+    "Option2": "Manage session objects",
+    "Option3": "Control database transactions",
+    "Option4": "Store configuration properties",
+    "Answer": "Option1",
+    "QuestionID": "123"
+  },
+  {
+    "Question": "Which Hibernate architecture component is responsible for translating Java objects into SQL statements and vice versa?",
+    "Option1": "SessionFactory",
+    "Option2": "Session",
+    "Option3": "Connection Pool",
+    "Option4": "Transaction Manager",
+    "Answer": "Option2",
+    "QuestionID": "124"
+  },
+  {
+    "Question": "What is the purpose of the Hibernate Configuration object?",
+    "Option1": "Define the structure of database tables",
+    "Option2": "Configure Hibernate settings and mappings",
+    "Option3": "Manage database connections",
+    "Option4": "Control transaction boundaries",
+    "Answer": "Option2",
+    "QuestionID": "125"
+  },
+  {
+    "Question": "In ORM, what does \"Object-Relational Mapping\" refer to?",
+    "Option1": "The process of mapping objects to tables in a database",
+    "Option2": "The process of mapping tables to objects in memory",
+    "Option3": "The process of mapping objects to URLs",
+    "Option4": "The process of mapping URLs to tables",
+    "Answer": "Option1",
+    "QuestionID": "126"
+  },
+  {
+    "Question": "Which annotation is used to define the primary key of an entity in Hibernate?",
+    "Option1": "@Id",
+    "Option2": "@Primary",
+    "Option3": "@Key",
+    "Option4": "@PrimaryKey",
+    "Answer": "Option1",
+    "QuestionID": "127"
+  },
+  {
+    "Question": "In Hibernate, what is a One-to-Many relationship?",
+    "Option1": "Each entity can be associated with only one other entity",
+    "Option2": "Each entity can be associated with multiple instances of another entity",
+    "Option3": "Each entity can have only one attribute",
+    "Option4": "Each entity can be associated with one instance of another entity",
+    "Answer": "Option2",
+    "QuestionID": "128"
+  },
+  {
+    "Question": "Which association mapping in Hibernate is used to define a bidirectional relationship between two entities?",
+    "Option1": "@ManyToOne and @OneToOne",
+    "Option2": "@OneToMany and @ManyToMany",
+    "Option3": "@OneToMany and @ManyToOne",
+    "Option4": "@OneToOne and @OneToOne",
+    "Answer": "Option3",
+    "QuestionID": "129"
+  },
+  {
+    "Question": "What is the purpose of the @JoinColumn annotation in Hibernate?",
+    "Option1": "It specifies the join condition for SQL queries",
+    "Option2": "It specifies the database column to join two tables",
+    "Option3": "It defines the primary key of an entity",
+    "Option4": "It defines the foreign key of an entity",
+    "Answer": "Option2",
+    "QuestionID": "130"
+  },
+  {
+    "Question": "Which Hibernate feature is used to load associated entities lazily only when they are needed?",
+    "Option1": "Eager loading",
+    "Option2": "Lazy loading",
+    "Option3": "Dynamic loading",
+    "Option4": "Preloading",
+    "Answer": "Option2",
+    "QuestionID": "131"
+  },
+  {
+    "Question": "Which annotation is used to specify the name of the database table associated with a Hibernate entity?",
+    "Option1": "@Table",
+    "Option2": "@Entity",
+    "Option3": "@DatabaseTable",
+    "Option4": "@DBTable",
+    "Answer": "Option1",
+    "QuestionID": "132"
+  },
+  {
+    "Question": "What is the purpose of the @Column annotation in Hibernate?",
+    "Option1": "It specifies the data type of a column",
+    "Option2": "It defines the primary key column",
+    "Option3": "It specifies the column name in the database table",
+    "Option4": "It defines the foreign key column",
+    "Answer": "Option3",
+    "QuestionID": "133"
+  },
+  {
+    "Question": "Which annotation is used to declare a class as a persistent entity in Hibernate?",
+    "Option1": "@Entity",
+    "Option2": "@Persistent",
+    "Option3": "@Database",
+    "Option4": "@TableEntity",
+    "Answer": "Option1",
+    "QuestionID": "134"
+  },
+  {
+    "Question": "What does the @GeneratedValue annotation indicate in Hibernate?",
+    "Option1": "It specifies the default value of a field",
+    "Option2": "It generates primary key values automatically",
+    "Option3": "It defines the maximum length of a column",
+    "Option4": "It creates a new entity in the database",
+    "Answer": "Option2",
+    "QuestionID": "135"
+  },
+  {
+    "Question": "Which annotation is used to specify the one-to-many relationship in Hibernate?",
+    "Option1": "@OneToMany",
+    "Option2": "@ManyToOne",
+    "Option3": "@OneToOne",
+    "Option4": "@ManyToMany",
+    "Answer": "Option1",
+    "QuestionID": "136"
+  },
+  {
+    "Question": "What is the purpose of the @Transient annotation in Hibernate?",
+    "Option1": "It indicates that a property should not be persisted to the database",
+    "Option2": "It specifies the length of a text column",
+    "Option3": "It defines a foreign key relationship",
+    "Option4": "It indicates a read-only property",
+    "Answer": "Option1",
+    "QuestionID": "137"
+  },
+  {
+    "Question": "Which of the following is NOT a valid type of association mapping in Hibernate?",
+    "Option1": "@OneToOne",
+    "Option2": "@ManyToOne",
+    "Option3": "@OneToMany",
+    "Option4": "@OneToAll",
+    "Answer": "Option4",
+    "QuestionID": "138"
+  },
+  {
+    "Question": "Which of the following statements is true about HQL (Hibernate Query Language)?",
+    "Option1": "HQL is similar to SQL, but it operates on Java objects.",
+    "Option2": "HQL is used to query the database directly using SQL.",
+    "Option3": "HQL is used to define table structures in the database.",
+    "Option4": "HQL is a programming language.",
+    "Answer": "Option1",
+    "QuestionID": "139"
+  },
+  {
+    "Question": "What is the purpose of the \"FROM\" clause in HQL?",
+    "Option1": "To specify the SELECT clause",
+    "Option2": "To specify the table name",
+    "Option3": "To specify the database connection",
+    "Option4": "To specify the primary key",
+    "Answer": "Option2",
+    "QuestionID": "140"
+  },
+  {
+    "Question": "Which keyword is used to retrieve all records in an HQL query?",
+    "Option1": "SELECT",
+    "Option2": "ALL",
+    "Option3": "FROM",
+    "Option4": "WHERE",
+    "Answer": "Option3",
+    "QuestionID": "141"
+  },
+  {
+    "Question": "How can you parameterize an HQL query in Hibernate?",
+    "Option1": "Using the \"@\" symbol",
+    "Option2": "Using the \"?\" symbol",
+    "Option3": "Using the \"$\" symbol",
+    "Option4": "Using the \"param\" keyword",
+    "Answer": "Option2",
+    "QuestionID": "142"
+  },
+  {
+    "Question": "Which method is used to execute an HQL query in Hibernate?",
+    "Option1": "query.executeUpdate()",
+    "Option2": "query.List()",
+    "Option3": "getResultList()",
+    "Option4": "both a & b",
+    "Answer": "Option4",
+    "QuestionID": "143"
+  },
+  {
+    "Question": "Beans can be created by which of the following properties?\n",
+    "Option1": "Scope",
+    "Option2": "Property",
+    "Option3": "Class",
+    "Option4": "Constructor",
+    "Answer": "Option4",
+    "QuestionID": "144"
+  },
+  {
+    "Question": "What is the main purpose of the Spring Framework?",
+    "Option1": "To provide a comprehensive programming and configuration model for Java-based enterprise applications",
+    "Option2": "To provide a comprehensive programming and configuration model for JavaScript-based web applications",
+    "Option3": "To provide a comprehensive programming and configuration model for PHP-based web applications",
+    "Option4": "To provide a comprehensive programming and configuration model for Python-based web applications",
+    "Answer": "Option1",
+    "QuestionID": "145"
+  },
+  {
+    "Question": "What is the default scope of the Spring Bean?",
+    "Option1": "XML based configuration",
+    "Option2": "Java-based configuration",
+    "Option3": "Annotation based configuration",
+    "Option4": "All of the above",
+    "Answer": "Option4",
+    "QuestionID": "146"
+  },
+  {
+    "Question": "What is the purpose of the Spring IoC container?",
+    "Option1": "To manage the lifecycle of beans and their dependencies",
+    "Option2": "To handle the configuration of the application",
+    "Option3": "To provide a caching mechanism for the application",
+    "Option4": "To provide a security mechanism for the application",
+    "Answer": "Option1",
+    "QuestionID": "147"
+  },
+  {
+    "Question": "What is the purpose of the Spring MVC module?",
+    "Option1": "To provide a web framework for building web applications",
+    "Option2": "To provide a data access framework for accessing databases",
+    "Option3": "To provide a caching framework for caching data",
+    "Option4": "To provide a security framework for securing web applications",
+    "Answer": "Option1",
+    "QuestionID": "148"
+  },
+  {
+    "Question": "What are two ways to achieve dependency Injection in Spring?",
+    "Option1": "Using Getter and Setter methods",
+    "Option2": "Using Setter and Constructor",
+    "Option3": "Using Getter and Constructor",
+    "Option4": "Using Setter and Factory methods",
+    "Answer": "Option2",
+    "QuestionID": "149"
+  },
+  {
+    "Question": "Which interface represents the Spring IOC container?",
+    "Option1": "ApplicationContentFactory",
+    "Option2": "SessionFactory",
+    "Option3": "ApplicationContent",
+    "Option4": "DispatchServlet",
+    "Answer": "Option3",
+    "QuestionID": "150"
+  },
+  {
+    "Question": "What is the primary use of the Spring Security module?",
+    "Option1": "To provide aspect-oriented programming functionality",
+    "Option2": "To provide Model-View-Controller architecture",
+    "Option3": "To provide data access and management",
+    "Option4": "To provide authentication and authorization for web applications",
+    "Answer": "Option4",
+    "QuestionID": "151"
+  },
+  {
+    "Question": "Which annotation do we use to mark the class as a Service class/component?",
+    "Option1": "@Component",
+    "Option2": "@Service",
+    "Option3": "@Controller",
+    "Option4": "@Repository",
+    "Answer": "Option2",
+    "QuestionID": "152"
+  },
+  {
+    "Question": "Which are the modules of Web layer?",
+    "Option1": "WebSocket, Servlet, Web, Portlet",
+    "Option2": "WebSocket, Servlet, Web-MVC, Web",
+    "Option3": "HTML, JSP, WEB, Portlet",
+    "Option4": "HTML, Servlet, WEB, Portlet\n\n",
+    "Answer": "Option1",
+    "QuestionID": "153"
+  },
+  {
+    "Question": "What is Spring Core?",
+    "Option1": "A Java framework for creating user interfaces",
+    "Option2": "An IDE for developing Spring based applications",
+    "Option3": "A sub-module of Spring framework",
+    "Option4": "A scripting language of the Spring Framework",
+    "Answer": "Option3",
+    "QuestionID": "154"
+  },
+  {
+    "Question": "AOP is part of Core Container in the Spring Framework?",
+    "Option1": 1,
+    "Option2": false,
+    "Option3": "NOTA",
+    "Option4": "null",
+    "Answer": "Option2",
+    "QuestionID": "155"
+  },
+  {
+    "Question": "Which of the following is INCORRECT about dependency injection in Spring?",
+    "Option1": "It helps in achieving loose coupling between objects.",
+    "Option2": "It helps in testing the module by injecting the dependent Mock Objects.",
+    "Option3": "It increases the scope of code reusability",
+    "Option4": "It helps in managing database connections",
+    "Answer": "Option4",
+    "QuestionID": "156"
+  },
+  {
+    "Question": "In Spring\u2019s XML configuration file, which XML tag is used to define a bean?",
+    "Option1": "<component>",
+    "Option2": "<service>",
+    "Option3": "<bean>",
+    "Option4": "<dependency>",
+    "Answer": "Option3",
+    "QuestionID": "157"
+  },
+  {
+    "Question": "Which annotation is used to mark a method as an exception handling method in Spring MVC?",
+    "Option1": "@ExceptionHandler",
+    "Option2": "@ExceptionHandling",
+    "Option3": "@HandleException",
+    "Option4": "@ExceptionResolver",
+    "Answer": "Option1",
+    "QuestionID": "158"
+  },
+  {
+    "Question": "Which of the following is used to hold the model data and view information in Spring MVC?",
+    "Option1": "ViewResolver",
+    "Option2": "Model",
+    "Option3": "ModelAttribute",
+    "Option4": "ModelAndView",
+    "Answer": "Option4",
+    "QuestionID": "159"
+  },
+  {
+    "Question": "IOC Or Dependent Injection is .",
+    "Option1": "Design Pattern",
+    "Option2": "Framework",
+    "Option3": "Java module",
+    "Option4": "ORM Framewrok",
+    "Answer": "Option1",
+    "QuestionID": "160"
+  },
+  {
+    "Question": "Which of the following is not Spring Module?",
+    "Option1": "AOP",
+    "Option2": "O/R integration",
+    "Option3": "Spring MVC",
+    "Option4": "HTML/JSP",
+    "Answer": "Option4",
+    "QuestionID": "161"
+  },
+  {
+    "Question": "Spring is ..",
+    "Option1": "a free framework",
+    "Option2": "an open source framework",
+    "Option3": "a licensed framework",
+    "Option4": "a properietary framewok",
+    "Answer": "Option2",
+    "QuestionID": "162"
+  },
+  {
+    "Question": "Which of following is true?",
+    "Option1": "ApplicationContext implements BeanFactory",
+    "Option2": "ApplicationContext extends BeanFactory",
+    "Option3": "BeanFactory extends ApplicationContext",
+    "Option4": "BeanFactory implements ApplicationContext",
+    "Answer": "Option2",
+    "QuestionID": "163"
+  },
+  {
+    "Question": "Choose the correct option.",
+    "Option1": "The Spring Framework is open source application",
+    "Option2": "the Spring is java framework.",
+    "Option3": "Both",
+    "Option4": "null",
+    "Answer": "Option3",
+    "QuestionID": "164"
+  },
+  {
+    "Question": "What is stands for Spring MVC?",
+    "Option1": "Model View Controller",
+    "Option2": "Middle view Controller",
+    "Option3": "Module View Container",
+    "Option4": "Model view Container",
+    "Answer": "Option1",
+    "QuestionID": "165"
+  },
+  {
+    "Question": "What is stands for AOP?",
+    "Option1": "Aspect oriented Programming",
+    "Option2": "Aspect Oriented Programs",
+    "Option3": "Aspect oriente Programs",
+    "Option4": "null",
+    "Answer": "Option1",
+    "QuestionID": "166"
+  },
+  {
+    "Question": "Spring MVC is request-based framework",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "null",
+    "Option4": "null2",
+    "Answer": "Option1",
+    "QuestionID": "167"
+  },
+  {
+    "Question": "What is IOC?",
+    "Option1": "Integral of conversion",
+    "Option2": "Integrated oriented control",
+    "Option3": "Inversion of conversion",
+    "Option4": "Inversion of control",
+    "Answer": "Option4",
+    "QuestionID": "168"
+  },
+  {
+    "Question": "IOC is also known as ____.",
+    "Option1": "Dependency injection",
+    "Option2": "Bean Factory",
+    "Option3": "Application dependency",
+    "Option4": "null",
+    "Answer": "Option1",
+    "QuestionID": "169"
+  },
+  {
+    "Question": "Which of the following clearly states the role of IOC in Spring?",
+    "Option1": "To instantiate the application class",
+    "Option2": "To setup the object",
+    "Option3": "To assemble the object dependencies",
+    "Option4": "All of the above",
+    "Answer": "Option4",
+    "QuestionID": "170"
+  },
+  {
+    "Question": "____ is a design technique that eliminates dependencies from programming code to make the application easier to manage and test.",
+    "Option1": "Dependency Injection (DI)",
+    "Option2": "Dependency constructor (DC)",
+    "Option3": "IOC",
+    "Option4": "null",
+    "Answer": "Option1",
+    "QuestionID": "171"
+  },
+  {
+    "Question": "What is DAO?",
+    "Option1": "Data-accurate object",
+    "Option2": "Data access oriented",
+    "Option3": "Data access object",
+    "Option4": "Data accurate oriented",
+    "Answer": "Option3",
+    "QuestionID": "172"
+  },
+  {
+    "Question": "SpEL stands for ____.",
+    "Option1": "Spring expression language",
+    "Option2": "Spring ejection Locator",
+    "Option3": "Spring ejection language",
+    "Option4": "Spring express language",
+    "Answer": "Option1",
+    "QuestionID": "173"
+  }
+]

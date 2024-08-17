@@ -1,0 +1,99 @@
+<!-- question.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    {% load static %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #34495e;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #343a40;
+            margin-top: 0;
+            text-align: center;
+        }
+        p {
+            color: #343a40;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        label {
+            color: #343a40;
+            font-weight: bold;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 20px auto 0;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Question</h1>
+        <p>Question ID: {{ question.question_id }}</p>
+        <p>{{ question.question_text }}</p>
+        
+
+
+        
+        
+        <form action="{% url 'sem6:question' %}" method="post">
+            {% csrf_token %}
+            <ul>
+                <li><input type="radio" id="option1" name="option_id" value="option1">
+                    <label for="option1">{{ question.option1 }}</label></li>
+                <li><input type="radio" id="option2" name="option_id" value="option2">
+                    <label for="option2">{{ question.option2 }}</label></li>
+                <li><input type="radio" id="option3" name="option_id" value="option3">
+                    <label for="option3">{{ question.option3 }}</label></li>
+                <li><input type="radio" id="option4" name="option_id" value="option4">
+                    <label for="option4">{{ question.option4 }}</label></li>
+            </ul>
+            <input type="hidden" name="question_id" value="{{ question.question_id }}">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

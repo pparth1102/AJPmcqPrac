@@ -1,0 +1,65 @@
+<!-- answer.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #34495e;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #343a40;
+            margin-top: 0;
+            text-align: center;
+        }
+        p {
+            color: #343a40;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Answer</h1>
+        
+        <p> The correct answer is: {{ question.answer }}</p>
+        
+        
+        <a href="{% url 'sem6:question' %}">Get a new question</a> 
+    </div>
+</body>
+</html>
